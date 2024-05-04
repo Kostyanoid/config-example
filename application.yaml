@@ -1,2 +1,8 @@
 test:
   property_1: from_remote_global_application
+
+---
+spring.config.activate.on-profile: test
+
+test:
+  property_1: from_remote_global_application_profile_test
